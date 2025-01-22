@@ -5,5 +5,5 @@ import react from '@vitejs/plugin-react'
 // comment
 export default defineConfig({
   plugins: [react()],
-  base: '/MrNickyb254',
+  base: '/MrNickyb254/',
 })
