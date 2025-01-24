@@ -23,8 +23,8 @@ const InfoCarousel = ({ info }) => {
   }, []);
 
   return (
-    <div className="carousel-container" style={{ display: 'flex', overflow: 'hidden', justifyContent: 'start' }}>
-      <div className="cards-wrapper" style={{ display: 'flex' }}>
+    <div className="carousel-container overflow-hidden  flex flex-start ">
+      <div className="cards-wrapper " >
         {info.map((text, index) => (
           <div
             key={index}

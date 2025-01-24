@@ -8,10 +8,10 @@
       font-family: 'Roboto', sans-serif;
       background-color: rgb(7, 5, 20);
       overflow: scroll;
-      scrollbar-width: none;
+      scrollbar-width: none;      
     }
   }
-
+  
   .carousel-container {
     display: flex;
     justify-content: center;
@@ -55,7 +55,7 @@
   display: inline-grid;
   place-content: center;
   padding: 0.5em 1.5em;
-  font-size: 17px;
+  font-size: 1.2rem;
   border: 0;
   text-transform: uppercase;
   box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.6);
@@ -142,7 +142,7 @@
 /* next button styles */
 /* From Uiverse.io by joe-watson-sbf */ 
 .my-btn {
-  font-size: 17px;
+  font-size: 1.2rem;
   background: transparent;
   border: none;
   padding: 1em 1.5em;
@@ -284,7 +284,7 @@
   gap: 1rem;
 
   padding: 1rem;
-  width: 19rem;
+  /* width: 19rem; */
   background-color: hsla(240, 15%, 9%, 1);
   background-image: radial-gradient(
       at 88% 40%,
@@ -353,7 +353,7 @@
 }
 
 #card .card_title__container .card_title {
-  font-size: 1rem;
+  /* font-size: 1rem; */
   color: var(--white);
 }
 
@@ -361,7 +361,7 @@
   margin-top: 0.25rem;
   width: 65%;
 
-  font-size: 0.5rem;
+  /* font-size: 0.5rem; */
   color: var(--paragraph);
 }
 
@@ -405,7 +405,7 @@
 }
 
 #card .card__list .card__list_item .list_text {
-  font-size: 0.75rem;
+  /* font-size: 0.75rem; */
   color: var(--white);
 }
 
@@ -420,7 +420,7 @@
     hsl(189, 99%, 26%) 100%
   );
 
-  font-size: 0.75rem;
+  /* font-size: 0.75rem; */
   color: var(--white);
 
   border: 0;

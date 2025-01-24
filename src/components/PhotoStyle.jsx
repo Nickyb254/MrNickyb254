@@ -8,7 +8,7 @@ import nick from '../assets/Nixon Passport Photo.jpg'
 gsap.registerPlugin(useGSAP)
 
 const PhotoStyle = () => {
-  const container = useRef()
+  const container = useRef(null)
 
   useGSAP(
     ()=>{
@@ -26,9 +26,9 @@ const PhotoStyle = () => {
   
 
   return (
-    <section className='py-[20vh]'>
+    <section className='py-[12vh] lg:py-[20vh] pl-4 sm:pl-0'>
     
-      <div id='container'>
+      <div id='container' className='lg:scale-1.25'>
           <p>Profile Pic:</p>
       <div className='relative book' >
           <img id='me' className=" w-[70%] " src={nick} />

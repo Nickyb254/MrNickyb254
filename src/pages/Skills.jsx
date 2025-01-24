@@ -11,32 +11,30 @@ const Skills = ({items, title, subtitle, mykey}) => {
                       xmlns="http://www.w3.org/2000/svg"
                     >
                       <path
-                        clip-rule="evenodd"
+                        clipRule="evenodd"
                         d="M12.416 3.376a.75.75 0 0 1 .208 1.04l-5 7.5a.75.75 0 0 1-1.154.114l-3-3a.75.75 0 0 1 1.06-1.06l2.353 2.353 4.493-6.74a.75.75 0 0 1 1.04-.207Z"
-                        fill-rule="evenodd"
+                        fillRule="evenodd"
                       ></path>
                     </svg>
                   </span>
-                  <span className=" text-emerald-400">{item}</span>
+                  <span className="text-sm md:text-xl  text-emerald-400">{item}</span>
                 </li>
         )
       )
 
   return (  
-    <div>
-        
-        <div id="card">
-          <div className="card__border hover:cursor-pointer"></div>
-          <div className="card_title__container">
-            <span className="card_title">{title}</span>
-            <p className=" text-sm">{subtitle}</p>
-          </div>
-          <hr className="line" />
-          <ul className="card__list flex col-2">            
-            {content}
-          </ul>
-        </div>
-    </div> 
+    <div id="card" className='mt-10 lg:mt-0 lg:m-8 lg:flex-1 '>
+      <div className="card__border"></div>
+      <div className="card_title__container">
+        <p className="card_title text-sm md:text-xl lg:text-2xl">{title}</p>
+        <p className=" text-sm">{subtitle}</p>
+      </div>
+      <hr className="line" />
+      <ul className="card__list">            
+        {content}
+      </ul>
+    </div>
+    
   )
 }
 
