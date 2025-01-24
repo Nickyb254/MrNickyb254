@@ -27,14 +27,14 @@ const BodyLayout = () => {
       <History/>
       <div >
       <h2 className='text-center text-4xl lg:text-5xl py-8 md:py-16 px-[12%]  font-bold text-white' >Skills</h2>  
-      <div className='max-w-[90vw] mx-auto mb-[10vh] lg:flex lg:place-content-evenly px-8 '> 
+      <div className='max-w-[90vw] mx-auto mb-[10vh] lg:flex lg:place-content-evenly sm:px-8 '> 
         <Skills key={1} items={items} title={'Frontend Development'} subtitle={'Responsive, intuitive & beautiful UI'} />
         <Skills key={2} items={backenditems} title={'Backend Development'} subtitle={'Fast, scalable & secure user experince'} />        
         <Skills key={3} items={graphicSkills} title={'Graphic Designing'} subtitle={'Effective application of design principles'} />        
         </div>
       </div> 
       <div>
-      <h2 className='text-center text-4xl lg:text-5xl py-16 px-[12%]  font-bold text-white' >Projects</h2>  
+      <h2 className='text-center text-4xl lg:text-5xl pb-4 px-[12%]  font-bold text-white' >Projects</h2>  
       <Projects/>
       </div> 
       <Footer/>
