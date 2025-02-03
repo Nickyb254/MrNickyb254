@@ -31,10 +31,10 @@ const GoDown = () => {
   }, []);
 
   return (
-    <div className='relative max-w-[90vw] mx-auto hidden lg:flex'>
+    <div className='relative max-w-[90vw] mx-auto hidden md:flex'>
       <div className='absolute static -mt-[10%] ml-[50%] '>
         <div  id="fade-in-icon" className='absolute h-20 w-10  bg-red-700 rounded-full'>
-            <img ref={elementRef} className='scale-125' src={downIcon} />
+            <img ref={elementRef}  src={downIcon} />
             <img  className='scale-50' src={downIcon} />
         </div>
       </div>

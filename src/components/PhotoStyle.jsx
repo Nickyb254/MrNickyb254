@@ -9,7 +9,7 @@ gsap.registerPlugin(useGSAP)
 
 const PhotoStyle = () => {
   const container = useRef(null)
-
+  
   useGSAP(
     ()=>{
       gsap.fromTo('#box', { opacity: 0, y: 50 }, // Start off-screen and invisible
@@ -29,7 +29,7 @@ const PhotoStyle = () => {
     <section className='py-[12vh] lg:py-[20vh] pl-4 sm:pl-0'>
     
       <div id='container' className='lg:scale-1.25'>
-          <p>Profile Pic:</p>
+          <p className="transition-opacity duration-1000 opacity-100">Click to view:</p>
       <div className='relative book' >
           <img id='me' className=" w-[70%] " src={nick} />
           <div id='box' className=' book-cover bg-gray-400 shadow-2xl ring-offset-8 ring-green '></div>

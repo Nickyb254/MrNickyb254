@@ -23,7 +23,7 @@ const Skills = ({items, title, subtitle, mykey}) => {
       )
 
   return (  
-    <div id="card" className='mt-10 lg:mt-0 lg:m-8 lg:flex-1 '>
+    <div id="card" className='mt-10 lg:flex-1 max-w-[50vw] md:max-w-[40vw] lg:max-w-[20vw] m-auto '>
       <div className="card__border"></div>
       <div className="card_title__container">
         <p className="card_title text-sm md:text-xl lg:text-2xl">{title}</p>
